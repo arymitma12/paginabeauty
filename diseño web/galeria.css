@@ -1,0 +1,90 @@
+*{
+    box-sizing: content-box;
+}
+
+
+.pagina {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+     font-family: "Montserrat", sans-serif;
+    font-size: 19px;
+
+}
+.icon a {
+    color: black;
+     margin: 0 10px;
+     font-family: "Raleway", sans-serif;
+     font-size: 18px;
+}
+
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 45px; 
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    max-width: 100%;
+    margin: 40px auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imagen {
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.imagen img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 3px 4px 5px #000000;
+    display: block;
+    margin: 0 auto;
+}
+
+.imagen p {
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    margin-top: 14px;
+    color: black;
+}
+
+.imagen p{
+    text-align: center;
+
+}
+
+.iconos a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 35px;
+    color: black;
+    font-size: 25px;
+}
+
+.iconos { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 40px;
+
+}
+
+.pagina h1{
+     font-family: "Italiana", sans-serif;
+     color: blanchedalmond;
+}
+

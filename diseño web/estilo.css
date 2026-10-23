@@ -1,0 +1,93 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   font-family: "Italiana", sans-serif;
+    color: wheat
+}
+
+.contenido {
+    width: 100%;
+    min-height: 100vh;
+
+    background-image:
+        url("mujer-piel-glow-bronceada-6474a8817549d.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 75px;
+    font-style: italic;
+    margin-bottom: 20 px;
+    color: blanchedalmond;
+    text-align: center;
+    width: 50%;
+    
+}
+
+p {
+    font-size: 23px;
+    font-weight: bold;
+    line-height: 1.4;
+    max-width: 800 px;
+    text-align: center;
+    color: blanchedalmond;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 30px;
+    width: 100%;
+    margin-top: 25px;
+    position: static;
+}
+
+.menu a {
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: 16px;
+    
+}
+.redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 10px;
+
+}
+.redes a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 35px;
+    color: blanchedalmond;
+    font-size: 25px;
+   
+}
+.contenido p {
+   color: white;
+   font-family: "Kumbh Sans", sans-serif;
+
+}

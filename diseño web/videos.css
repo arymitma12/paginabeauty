@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+
+.pagina {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+     font-family: "Montserrat", sans-serif;
+    font-size: 19px;
+
+}
+
+h1 {
+    font-family: "Italiana", sans-serif;
+    text-align: center;
+    font-size: 45px;
+    color: blanchedalmond;
+}
+h2{
+    font-family: "Montserrat", sans-serif;
+    color: black;
+}
+.Icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin: 0 10px;
+    font-size: 18px;
+    color: black;
+}
+
+.Icon a {
+   font-family: "Raleway", sans-serif;
+    color: black;
+   
+
+}
+
+.icono a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 35px;
+    color: black;
+    font-size: 25px;
+}
+.icono {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 40px;
+
+}
+
+.parrafo-1 {
+     text-align: justify;
+    line-height: 1.4;
+   font-family: "Montserrat", sans-serif;
+    margin: 20px auto;
+    font-size: 15px;
+    width: 85%;
+}
+
+.parrafo-2 {
+     text-align: justify;
+    line-height: 1.4;
+   font-family: "Montserrat", sans-serif;
+    margin: 20px auto;
+    font-size: 15px;
+    width: 85%;
+}
+
+.parrafo-3 {
+     text-align: justify;
+    line-height: 1.4;
+   font-family: "Montserrat", sans-serif;
+    margin: 20px auto;
+    font-size: 15px;
+    width: 85%;
+}
